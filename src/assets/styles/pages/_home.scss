@@ -1,0 +1,172 @@
+$primary: #0f25a0;
+$nav-pills-border-radius: 0.75rem;
+
+
+
+
+@import './node_modules/bootstrap/scss/bootstrap.scss';
+//Header-Contact
+.header-contact-phonenumber, {
+   border: 1px solid rgb(202, 202, 202);
+  font-size: 0.75rem;
+}
+.header-contact-email{
+text-align: right;
+font-size: 0.75rem;
+}
+.header-underline{
+  width: 100%;
+  height: 1px;
+  background-color: rgb(202, 202, 202);
+}
+//Header-Nav
+.header-nav{
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+.nav-tabs{
+  padding: 0.2rem 0.5rem;
+  margin: 1rem 1rem;
+ font-size: 0.9rem;
+}
+.header-nav-logo{
+  height: 62px;
+  width: 150px;
+  
+}
+.header-nav-tabs{
+  margin: 0 50px;
+}
+//Header-Carousel
+.header-carousel{
+  width: 100%;
+  height: 500px;
+}
+.active .carousel-item{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.carousel-inner{
+  width: 100%;
+  height: 100%;
+  
+}
+.d-block{
+  width: 100%;
+  height: 100%;
+  // object-fit: cover;
+}
+
+//Body
+//Body-Content
+.body-content{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.body-content-img{
+  width: 450px;
+  height: 270px;
+}
+.body-content-title{
+  font-weight: bold;
+}
+.body-content-text{
+  width: 580px;
+  line-height: 2.2rem;
+  margin: 0 20px;
+}
+.body-content-text-sign{
+  font-style: italic;
+  margin: 20px 0;
+}
+.body-content-btn {
+  width: 180px;
+  height: 30px;
+
+}
+//Body-Price
+.body-price{
+  text-align: center;
+}
+.body-price-title{
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.body-price-content {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.e-learning, .hi-chat, .bizfast{
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  margin: 0px 10px;
+  width: 350px;
+  height: 350px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
+//Body-Product
+.body-product{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+.body-product-img{
+  width: 450px;
+  height: 350px;
+}
+.body-product-text{
+  width: 580px;
+  line-height: 2.2rem;
+  margin: 0 20px;
+}
+//Body-Recuitment
+.body-recuitment-title{
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  left: 70px;
+}
+.body-recuitment-content{
+  display: flex;
+  justify-content: center;
+}
+.body-recuitment-content{
+  margin: 40px 0;
+}
+.recuitment-content-img{
+  width: 400px;
+  height: 300px;
+  margin: 0 40px;
+}
+.recuiment-content-input{
+  margin: 0 40px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 65px;
+}
+.recuiment-content-input-text{
+  width: 500px;
+  height: 165px;
+  
+}
+.info-optinal{
+  margin: 10px 0;
+}
+.recuiment-btn{
+  margin: 20px;
+  width: 80px;
+  border-radius: 50px;
+  background-color: #3a7cd3;
+  border-color: inherit;
+}
+.body-recuitment-button{
+  text-align: right;
+}

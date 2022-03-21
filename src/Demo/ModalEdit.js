@@ -43,11 +43,6 @@ const ModalEdit = forwardRef((props, ref) => {
   };
 
   const submitEdit = (data) => {
-    // Object.keys(dataEdit).forEach(key => {
-    //   if(key in data) {
-    //     dataEdit[key] = data[key]
-    //   }
-    // })
     const newList = [...dataVacxin];
     const index = newList.findIndex((x) => x.name === dataEdit.name);
     newList.splice(index, 1, { ...dataEdit, ...data });
