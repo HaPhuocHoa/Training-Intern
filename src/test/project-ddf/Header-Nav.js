@@ -1,5 +1,5 @@
 import { Nav } from "react-bootstrap"
-const Taskbar = () => {
+const  = () => {
 return (
     <div className="header-nav">
       <img className="header-nav-logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuTE0JQddr22mX0Pcx3-fuZK-E_DX62BG7VQ&usqp=CAU"/>
